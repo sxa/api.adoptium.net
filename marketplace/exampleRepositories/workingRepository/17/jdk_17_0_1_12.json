@@ -3,7 +3,7 @@
         {
             "release_link": "https://github.com/adoptium/temurin17-binaries/releases/tag/jdk-17.0.1%2B12",
             "release_name": "jdk-17.0.1+12",
-            "timestamp": "2021-10-27T13:36:51Z",
+            "last_updated_timestamp": "2021-10-27T13:36:51Z",
             "binaries": [
                 {
                     "os": "linux",
@@ -265,7 +265,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "debugimage",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -283,7 +283,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -495,7 +495,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "staticlibs",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -755,7 +755,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {

@@ -3,7 +3,7 @@
         {
             "release_link": "https://github.com/adoptium/temurin8-binaries/releases/tag/jdk8u322-b06",
             "release_name": "jdk8u322-b06",
-            "timestamp": "2022-01-25T15:24:46Z",
+            "last_updated_timestamp": "2022-01-25T15:24:46Z",
             "binaries": [
                 {
                     "os": "mac",
@@ -489,7 +489,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "debugimage",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -507,7 +507,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -533,7 +533,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {

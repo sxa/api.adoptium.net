@@ -3,7 +3,7 @@
         {
             "release_link": "https://github.com/adoptium/temurin11-binaries/releases/tag/jdk-11.0.13%2B8",
             "release_name": "jdk-11.0.13+8",
-            "timestamp": "2021-10-21T21:55:18Z",
+            "last_updated_timestamp": "2021-10-21T21:55:18Z",
             "binaries": [
                 {
                     "os": "linux",
@@ -383,7 +383,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "debugimage",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -401,7 +401,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "jdk",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -623,7 +623,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "jre",
                     "jvm_impl": "hotspot",
                     "package": {
@@ -817,7 +817,7 @@
                 },
                 {
                     "os": "windows",
-                    "architecture": "x32",
+                    "architecture": "x86",
                     "image_type": "staticlibs",
                     "jvm_impl": "hotspot",
                     "package": {
