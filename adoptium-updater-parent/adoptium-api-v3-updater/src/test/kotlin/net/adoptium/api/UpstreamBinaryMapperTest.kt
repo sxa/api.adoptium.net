@@ -63,7 +63,8 @@ class UpstreamBinaryMapperTest : BaseTest() {
                 "OpenJDK11U-jre-shenandoah_x64_linux_11.0.10_3_ea.tar.gz",
                 "OpenJDK11U-jdk-shenandoah_x64_linux_11.0.10_3_ea.tar.gz",
                 "OpenJDK11U-testimage-shenandoah_x64_linux_11.0.10_3_ea.tar.gz",
-                "OpenJDK18U-sbom_aarch64_alpine-linux_hotspot_2022-05-27-23-30.tar.gz"
+                "OpenJDK18U-sbom_aarch64_alpine-linux_hotspot_2022-05-27-23-30.tar.gz",
+                "OpenJDK18U-jre_aarch64_alpine-linux_hotspot_2022-06-20-23-30.tar.gz.sig"
             )
         )
 
@@ -81,6 +82,7 @@ class UpstreamBinaryMapperTest : BaseTest() {
             assertEquals(ImageType.jdk, binaryList[7].image_type)
             assertEquals(ImageType.testimage, binaryList[8].image_type)
             assertEquals(ImageType.sbom, binaryList[9].image_type)
+            assertEquals(ImageType.gpgkey, binaryList[10].image_type)
         }
     }
 
